@@ -1,8 +1,13 @@
+/*Adding a new font*/
+@font-face {
+    src: url(../fonts/JuliusSansOne-Regular.ttf);
+    font-family: Julius;
+}
 /* Navigation bar / background color */
 .Navbar_top {
-    background-color: rgba(0, 0, 0, 0.833);
+    background-color: rgba(0, 0, 0, 0.886);
     overflow: hidden;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Julius;
 }
 
 /* Sorting logo at left*/
@@ -23,4 +28,16 @@
 .Navbar_top a:hover{
     background-color: rgba(228, 228, 228, 0.958);
     color: black;
+}
+/*Adding a background image */
+body {
+    background-image: url("../images/Boat.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* Changing the header's font */
+header {
+    font-family: Julius;
 }
