@@ -11,9 +11,10 @@
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -8px;
+    
 }
 
-/* Sorting logo at left*/
+/* Sorting LOGO at left*/
 .Navbar_top a{
     float: left;
     color: white;
@@ -22,6 +23,7 @@
     text-decoration: none;
     font-size: 19px;
 }
+
 /* Sorting buttons at right*/
 .Navbar_top-right{
     float: right;
