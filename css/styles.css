@@ -5,12 +5,15 @@
 }
 /* Navigation bar / background color */
 .Navbar_top {
-    background-color: rgba(0, 0, 0, 0.886);
+    
     overflow: hidden;
     font-family: Julius;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -8px;
+    border-bottom-style:ridge;
+    border-color: rgba(0, 0, 0, 0.685);
+    width: 570px ;
+    margin: auto;
+    padding-left: 10px;
+  
     
 }
 
@@ -18,7 +21,6 @@
 .Navbar_top a{
     float: left;
     color: white;
-    text-align: center;
     padding: 16px 16px;
     text-decoration: none;
     font-size: 19px;
@@ -26,33 +28,78 @@
 
 /* Sorting buttons at right*/
 .Navbar_top-right{
-    float: right;
-    
+    float: center;
+    /*
+    margin-left: 500px;
+    */
 }
 /* Mouse over navigation bar */
 .Navbar_top a:hover{
     background-color: rgba(228, 228, 228, 0.958);
     color: black;
 }
+body{
+    background-color: #222831;
+}
 /*Adding a background image */
+
 body {
-    background-image: url("../images/Boat.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url("../images/ningyu-he-tb49PTdW1ZM-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+
 /* Changing the header's font */
 header h1{
     font-family: Julius;
     text-align: center;
-    font-size: 70px;
+    font-size: 100px;
+    color: whitesmoke;
+
 }
+
 header h2{
     text-align: center;
     font-family: Julius;
-    font-size:40px;
+    font-size: 40px;
     font-weight: bold;
     /*color: darkgray ;*/ 
-    color: rgba(0, 0, 0, 0.732);
+    color: rgba(207, 207, 207, 0.949);
+    margin-top: -40px;
+}
+/*Creating the black background overlay the image */
+#Intro {
+    padding-top: 200px;
+    margin-top: 600px;
+    background-color: #1e1e1e;
+    font-family: Julius;
+    font-style:normal;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 500px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+/* Adding style to the Introduction subtitle */
+#Intro h3 {
+    color: black;
+    background-color: rgba(189, 189, 189, 0.905);
+    margin-right: 400px;
+    padding: 20px;
+
+    
+    
+}
+/* White square style behind the text */
+#Intro div
+{
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 700px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.874);
 }
