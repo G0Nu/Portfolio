@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Nuno / SE</title>
+    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+
+    
+    
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <main>
+
+        <div class="nav_bar">
+            <img class="logo" src="./images/LogoIcon.svg" alt="LOGO" height="70px" width="100px">
+            <nav class="nav_buttons">
+                <ul class="nav_links">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Me">About me</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                </ul>
+            </nav>
+            <a class="contact" href="#"><button>Contact</button></a>
+        </div>
+        <header>
+            <div class="Diego">
+                <h1>Diego Nuno</h1>
+            </div>
+            <div class="Software">
+                <h1>Software Engineer</h1>
+            </div>
+            <div class="download_resume">
+                <button>Download Resume</button>
+            </div>
+        </header>
+        <div class="mainContent" main>
+            <div id="Whoami">
+                <h2>Who am I?</h2>
+            </div>
+        <div id="intro">
+            
+
+                <img src="./images/ME.jpg" alt="Diego Picture" width="400px" height="300px">
+            
+            <p>
+                “My name is Diego i am passionate about technology, i’m a carismatic and a possitive person, I would like to innovate inside the industry. I believe that everything is possible, thankfully due to technology.
+                I love learning new things and traveling through different cultures. <br><br><br>I am interested in Blockchain & Machine learning. <br> <br> I have almost 3 years coding, I have been learning different things, currently I'm learning about Data structures & Algorithms, MongoDB and NodeJS". </p>
+            </div>
+            <div id="More_btn">
+                <button>More About me...</button>
+            </div>
+            <!--
+                Skills section
+            -->
+            <div class="Skills">
+                <h2>Skills</h2>
+                <section class="skill">
+                    <div class="set">
+                        <h3>~Web Development~</h3>
+                        <div class="list">
+                            <label>HTML</label>
+                        </div>
+                        <div class="list">
+                            <label>CSS</label>
+
+                        </div>
+                        <div class="list">
+                            <label>JavaScript</label>
+                        
+                        </div>
+                    </div>
+                    
+                    <div class="set">
+                        <h3>~Frameworks~</h3>
+                        <div class="list">
+                        <label>THREEJS</label>
+                        <figure></figure>
+                    </div>
+                    <div class="list">
+                        <label>NodeJS</label>
+                        <figure></figure>
+                    </div>
+                    <div class="list">
+                        <label>REACT</label>
+                        <figure></figure>
+                    </div>
+                </div>
+                
+                <div class="set">
+                    <h3>~DATABASES~</h3>
+                    <div class="list">
+                        <label>MySQL</label>
+                        <figure></figure>
+                    </div>
+                    <div class="list">
+                        <label>PostgressSQL</label>
+                        <figure></figure>
+                    </div>
+                    <div class="list">
+                        <label>MongoDB</label>
+                        <figure></figure>
+                    </div>
+                </div>
+                
+                <div class="set">
+                    <h3>~Programming Languages~</h3>
+                    <div class="list">
+                        <label>Python</label>
+                        <figure></figure>
+                    </div>
+                    <div class="list">
+                        <label>C#</label>
+                        <figure></figure>
+                    </div>
+                    <div class="list">
+                        <label>Java</label>
+                        <figure></figure>
+                    </div>
+                </div>
+                
+                <div class="set">
+                    <h3>~Others~</h3>
+                    <div class="list">
+                        <label>Git & GitHub</label>
+                        <figure></figure>
+                    </div>
+                    <div class="list">
+                        <label>Linux</label>
+                        <figure></figure>
+                    </div>
+                </div>
+                
+                <div class="set">
+                    <h3>STACKS</h3>
+                    <div class="list">
+                        <label>MEAN</label>
+                        <figure></figure>
+                    </div>
+                </div>
+            </section>
+                
+            </div>
+            <!--
+                Portfolio section
+            -->
+            <div class="Portfolio">
+                <h2>Portfolio</h2>
+                <div class="swiper mySwiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <button>
+                            Example
+                        </button>
+                      </div>
+                      <div class="swiper-slide">Slide 2</div>
+                      <div class="swiper-slide">Slide 3</div>
+                      <div class="swiper-slide">Slide 4</div>
+                      <div class="swiper-slide">Slide 5</div>
+                      <div class="swiper-slide">Slide 6</div>
+                      <div class="swiper-slide">Slide 7</div>
+
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                  </div>
+
+            </div>
+            <!--
+                References section
+            -->
+            <div class="References">
+                <h2>References</h2>
+            </div>
+            <!--
+                Contact me section
+            -->
+            <div>
+                <h2>Contact me</h2>
+            </div>
+            
+            
+        </div>
+        <footer>
+            <div>
+                
+            </div>
+        </footer>
+        
+    </main>
+    <script src="./js/script.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          });
+          </script>
+        
+    </body>
+    </html>
