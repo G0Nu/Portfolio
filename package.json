@@ -1,0 +1,14 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "Personal portfolio project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emmanuel Nuno",
+  "license": "ISC",
+  "dependencies": {
+    "swiper": "^8.4.5",
+    "three": "^0.146.0"
+  }
+}
